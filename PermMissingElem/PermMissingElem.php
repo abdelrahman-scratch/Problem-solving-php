@@ -2,11 +2,11 @@
 
 class PermMissingElem
 {
-    public function solution($A)
+    public function solution($a)
     {
-        $N = count($A);
-        $sum = ($N + 2) * ($N + 1) / 2;
-        return $sum - array_sum($A);
+        $n = count($a);
+        $sum = ($n + 2) * ($n + 1) / 2;
+        return $sum - array_sum($a);
 
     }
 
